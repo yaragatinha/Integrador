@@ -35,7 +35,7 @@ public class Turma extends Matricula{
         Situação = situação;
         CargaHorária = cargaHorária;
     }
-    
+
     @Override
     public String toString() {
         return "Turma [Código=" + Código + ", Nome=" + Nome + ", Situação=" + Situação + ", CargaHorária="

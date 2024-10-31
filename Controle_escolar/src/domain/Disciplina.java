@@ -1,6 +1,6 @@
 
 
-public class Disciplina extends Historico {
+public class Disciplina  {
 
     private Integer Código;
     private String Nome;
@@ -36,7 +36,7 @@ public class Disciplina extends Historico {
         Situação = situação;
         CargaHorária = cargaHorária;
     }
-    
+
     @Override
     public String toString() {
         return "Disciplina [Código=" + Código + ", Nome=" + Nome + ", Situação=" + Situação + ", CargaHorária="
